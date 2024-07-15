@@ -76,15 +76,15 @@
       .star-btn {
         background-color: hsl(213, 19%, 23%);
         border: none;
-        width: 4.8rem;
-        height: 4.8rem;
+        width: 3.8rem;
+        height: 3.8rem;
         display: flex;
         justify-content: center;
         align-items: center;
         border-radius: 50%;
       }
       .star {
-        width: 2.4rem;
+        width: 1.4rem;
       }
       .state p {
         margin: 0;
@@ -113,9 +113,12 @@
         transition: all 0.13s;
       }
       .rating:hover,
-      .rating:active,
-      .rating:focus {
+      .rating:active {
         background-color: hsl(217, 12%, 63%);
+        color: hsl(213, 19%, 23%);
+      }
+      .rating:focus {
+        background-color: hsl(25, 97%, 53%);
         color: hsl(213, 19%, 23%);
       }
 
@@ -135,7 +138,12 @@
       }
       .submit-btn:hover,
       .submit-btn:active {
-        background-color: hsl(25, 97%, 20%);
+        color: hsl(25, 97%, 53%);
+        background-color: hsl(213, 19%, 23%);
+      }
+      .submit-btn:focus {
+        background-color: hsl(25, 97%, 53%);
+        color: hsl(216, 12%, 8%);
       }
       .thanks-state {
         align-items: center;
@@ -161,6 +169,9 @@
       .btn-back:focus {
         background-color: hsl(217, 12%, 63%);
         color: hsl(213, 19%, 23%);
+      }
+      .btn-back:focus {
+        background-color: hsl(25, 97%, 53%);
       }
 
       .illus {
